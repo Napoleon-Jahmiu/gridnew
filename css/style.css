@@ -262,6 +262,18 @@ h1, h2, h3, h4, h5, h6 {
     grid-column: 2 / span 2;
  }
 
+ #article .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: .5rem;
+ }
+
+ #article .meta .category {
+    margin: .4rem 0;
+ }
+
  /* Footer */
  #main-footer {
     background: var(--dark-color);
